@@ -10,7 +10,7 @@ axios.get(url)
   .then(response => {
 	   // Lorsque la requête est réussie, le contenu HTML de la page est récupéré dans 'response.data'
     const html = response.data;
-    console.log("contenu html a bien été récupérée");
+    iconsole.log("contenu html a bien été récupérée");
 	  // Contenu html bien récuperer
   })
   // Si la requête échoue,on gère l'erreur ici
